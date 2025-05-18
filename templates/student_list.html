@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title>Student List</title></head>
+<body>
+    <h2>Batch E Students</h2>
+    <table border="1" cellpadding="6">
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+        </tr>
+        {% for student in students %}
+        <tr>
+            <td>{{ student.roll_no }}</td>
+            <td>{{ student.name }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <br>
+    <a href="/">Add Another Student</a>
+</body>
+</html>
