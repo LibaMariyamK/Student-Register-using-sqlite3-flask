@@ -62,8 +62,8 @@ A simple web application using **Flask** and **SQLite3** to register students an
 
 ### 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/student-register.git
-cd student-register
+git clone https://github.com/LibaMariyamK/Student-Register.git
+cd Student-Register
 ````
 
 ### 2. Install Flask:
